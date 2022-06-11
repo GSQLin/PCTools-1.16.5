@@ -1,0 +1,15 @@
+name: PCTools
+main: ${group}
+version: ${version}
+commands:
+  pctools:
+    description: 主指令
+permissions:
+  pctools.use:
+    description: 使用权限
+    default: true
+  pctools.admin:
+    description: 管理员权限
+    default: op
+    children:
+      pctools.use: true

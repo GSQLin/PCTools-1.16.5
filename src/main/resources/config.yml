@@ -1,0 +1,57 @@
+PCToolsTitle: '&8[&3PC&7Tools&8]&7==&a{pc_box}/{pc_max_box}'
+ConfirmDeletion: "&c&lConfirm deletion!!"
+Message:
+  NoPermission: '&cYou do not have permission to this command'
+  Error0: '&cParameter non numeric'
+  Error1: '&cThere are no such pages'
+  Error2: '&cYou are not player'
+  Error3: '&cPlayer is offline! save failed!'
+  OnRanch: "&cYou can't move Pokemon on the ranch"
+  MoveEgg: "&cCan't move eggs!!"
+  Success: '&6Success!'
+  AutomaticAllocation: '&6There are Pokemon that have not been assigned positions (randomly assigned to {RandomLocation})'
+  PlayerNotOnline: '&cPlayer not online'
+  PcOccupied: '&cThe PC is being adjusted'
+  ##特殊变量只有在上方有效{RandomLocation}
+PokePhoto:
+  name: '&r{pokemon_name}'
+  lore: ##一下就是所有插件自带变量了
+    - '&6昵称:&3{poke_name}'
+    - '&6闪光:{poke_shiny} &6等级:&a{poke_level}'
+    - '&6个体值:&a{poke_ivs}'
+    - '&6生命:&a{poke_ivs_hp} &6攻击:&a{poke_ivs_attack}'
+    - '&6防御:&a{poke_ivs_defence} &6速度:&a{poke_ivs_speed}'
+    - '&6特防:&a{poke_ivs_specialDefence} &6特攻:&a{poke_ivs_specialAttack}'
+    - '&6努力值:&a{poke_evs}'
+    - '&6生命:&a{poke_evs_hp} &6攻击:&a{poke_evs_attack}'
+    - '&6防御:&a{poke_evs_defence} &6速度:&a{poke_evs_speed}'
+    - '&6特防:&a{poke_evs_specialDefence} &6特攻:&a{poke_evs_specialAttack}'
+    - '&6特性:&a{poke_ability}'
+    - '&6UUID:&r{pokemon_uuid}' #一定要的，以防精灵冲突
+DisplayEgg: false #当该项为false时，蛋的消息显示如下,为true则默认上方的内容
+EggInfo:
+  name: '&r蛋'
+  lore: ##一下就是所有插件自带变量了
+    - '&6里面似乎有什么生音'
+    - '&6UUID:&r{pokemon_uuid}' #一定要的，以防精灵冲突 必须在最后一条
+scgn: false #为完善敬请期待(开启后shift+左键点击就会直接删除精灵)
+item0:
+  name: '&c分界线'
+  lore:
+    - ''
+item1:
+  name: '&a上一页'
+  lore:
+    - ''
+item2:
+  name: '&a下一页'
+  lore:
+    - ''
+item3:
+  name: '&c确认'
+  lore:
+    - ''
+item4:
+  name: '&3取消'
+  lore:
+    - ''
